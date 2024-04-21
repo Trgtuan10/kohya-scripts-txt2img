@@ -1,0 +1,11 @@
+[general]
+shuffle_caption = true
+keep_tokens = 1
+
+[[datasets]]
+resolution = [512, 512]
+batch_size = 4
+
+  [[datasets.subsets]]
+  image_dir = '/root/workspace/onepiece_dataset'
+  metadata_file = '/root/workspace/meta_lat.json'
